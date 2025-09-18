@@ -6,6 +6,33 @@ dotenv.load_dotenv()
 import http.client
 
 
+MATCHES_ENPOINTS_WITH_PARAMS = {
+    "detail":"matchtId",
+    "get-lineups":"matchtId",
+    "get-comments":"matchtId",
+    "get-incidents":"matchtId",
+    "get-managers":"matchtId",
+    "get-graph":"matchtId",
+    "get-statistics":"matchtId",
+    "get-team-streaks":"matchtId",
+    "get-best-players":"matchtId",
+    "get-player-statistics":["matchtId","playerId"],
+    "get-player-heatmap":["matchtId","playerId"],
+    "get-h2h":"matchtId"
+}
+PLAYERS_ENDPOINTS_WITH_PARAMS = {
+    "detail":"playerId",
+    "get-characteristics":"playerId",
+    "get-ratings":"playerId",
+    "get-transfer-history":"playerId",
+    "get-statistics":"playerId",
+    "get-national-team-statistics":"playerId",
+    "get-statistics-season":"playerId",
+    "get-all-statistics":"playerId",
+    "get-next-matches":"playerId",
+    "get-last-matches":"playerId",
+    "get-last-year-summary":"playerId"
+}
 
 class APIClient:
     def __init__(self, api_key:str = os.environ.get('x-rapidapi-key', None), base_url:str=os.environ.get('x-rapidapi-host', None)):
@@ -20,7 +47,8 @@ class APIClient:
                 'x-rapidapi-key': self.api_key
         }
         self.httpConnection = http.client.HTTPConnection(self.base_url)
-        self.barca_id = 529
+        # self.barca_id = 529
+        self.barca_id = 2817
         self.barca_code = "BAR"
 
 
