@@ -20,6 +20,7 @@ MATCHES_ENPOINTS_WITH_PARAMS = {
     "get-player-heatmap":["matchtId","playerId"],
     "get-h2h":"matchtId"
 }
+
 PLAYERS_ENDPOINTS_WITH_PARAMS = {
     "detail":"playerId",
     "get-characteristics":"playerId",
@@ -32,6 +33,22 @@ PLAYERS_ENDPOINTS_WITH_PARAMS = {
     "get-next-matches":"playerId",
     "get-last-matches":"playerId",
     "get-last-year-summary":"playerId"
+}
+
+TEAMS_ENDPOINTS_WITH_PARAMS = {
+    "detail":"teamId",
+    "get-squad":"teamId",
+    "get-transfers":"teamId",
+    "get-performance":"teamId",
+    "get-rankings":"teamId",
+    "get-tournaments":"teamId",
+    "get-near-events":"teamId",
+    "get-ranks":"teamId",
+    "get-statistics":"teamId",
+    "get-statistics-seasons":"teamId",
+    "get-last-matches":"teamId",
+    "get-next-matches":"teamId",
+    "get-player-statistics" : [ "teamId", "seasonId" ],
 }
 
 class APIClient:
@@ -51,17 +68,21 @@ class APIClient:
         self.barca_id = 2817
         self.barca_code = "BAR"
 
-
-    def get_team(self, team_code:str = None, team_id:int = None):
+    def get(self, endpoint_base:str, endpoint_end:str='', params:dict={}):
         try:
-            self.httpConnection.request("GET", f"{ self.base_url }/teams?code={team_code}", headers=self.headers)
-            res = self.httpConnection.getresponse()
-            if res.status >= 200 and res.status < 300:
-                print(res.read().decode("utf-8"))
-                return { "success":True, "data":json.loads(res.read().decode("utf-8"))['response'][0]['team']}
-            raise Exception(res.reason)
+            url ="https://"+ f"{self.base_url}/{endpoint_base.lower()}/{endpoint_end}".replace('//','/')
+
+            response = requests.get(url=url, headers=self.headers, params=params)
+            if response.ok:
+                return response.json()
+            raise Exception(response.reason)
         except Exception as e:
-            return {"success":False, "message":str(e)}
+            return { "success":False, "message":str(e)}
+
+    def get_squad(self):
+        return self.get("/teams", "/get-squad", {"teamId":self.barca_id})
+    
+    
     def get_player_details(self, playerID:int):
         try:
             url = f"http://{self.base_url}/players/detail"
@@ -89,15 +110,7 @@ class APIClient:
             raise Exception(response.reason)
         except Exception as e:
             return { "success":False, "message":str(e)}
-    
-    def get_squad(self):
-        try:
-            response = requests.get(url = "https://"+self.base_url + "/teams/squad", headers=self.headers, params={"teamId":str(self.barca_id)})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
+
     def get_player_characteristics(self, playerID:int):
         try:
             response = requests.get(url = "https://"+self.base_url + "/players/get-characteristics", headers=self.headers, params={"playerId":str(playerID)})
@@ -136,7 +149,7 @@ class APIClient:
 
 client = APIClient()
 
-print(client.get_player_by_name("lionel messi"))
+print(client.get_squad())
 
 """
  {'results': [{'entity': {'id': 12994, 'name': 'Lionel Messi', 'slug': 'lionel-messi', 'retired': False, 'userCount': 1559095, 'team': {'id': 337602, 'name': 'Inter Miami CF', 'nameCode': 'IMC', 'slug': 'inter-miami-cf', 'national': False, 'sport': {'id': 1, 'slug': 'football', 'name': 'Football'}, 'userCount': 1510605, 'teamColors': {'primary': '#212322', 'secondary': '#f6b5cc', 'text': '#f6b5cc'}, 'gender': 'M', 'fieldTranslations': {'nameTranslation': {'ar': 'إنتر ميامي', 'ru': 'Интер Майами', 'hi': 'इंटर मिआमि सीऍफ़'}, 'shortNameTranslation': {}}}, 'deceased': False, 'country': {'alpha2': 'AR', 'name': 'Argentina', 'slug': 'argentina'}, 'shortName': 'L. Messi', 'position': 'F', 'jerseyNumber': '10', 'sofascoreId': 'LM10', 'fieldTranslations': {'nameTranslation': {'ar': 'ل. ميسي', 'hi': 'एल. मेसी', 'bn': 'এল. মেসি'}, 'shortNameTranslation': {}}}, 'score': 1127260.6, 'type': 'player'}
