@@ -1,0 +1,427 @@
+{
+  "rankings": [
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2021",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 4,
+      "points": 122,
+      "id": 5536,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2020",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 3,
+      "points": 128,
+      "id": 5983,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2019",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 2,
+      "points": 138,
+      "id": 6398,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2018",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 4,
+      "points": 132,
+      "id": 6847,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2022",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 6,
+      "points": 114,
+      "id": 7490,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2023",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 9,
+      "points": 98,
+      "id": 7586,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2024",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 12,
+      "points": 91,
+      "id": 9647,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2025",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 10,
+      "points": 103.25,
+      "id": 50052,
+      "country": {},
+      "rankingClass": "team"
+    },
+    {
+      "team": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "country": {
+          "alpha2": "ES",
+          "alpha3": "ESP",
+          "name": "Spain",
+          "slug": "spain"
+        },
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "year": "2026",
+      "type": 9,
+      "rowName": "FC Barcelona",
+      "ranking": 9,
+      "points": 91.25,
+      "id": 113270,
+      "country": {},
+      "rankingClass": "team"
+    }
+  ]
+}

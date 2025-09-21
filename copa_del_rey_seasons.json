@@ -1,0 +1,118 @@
+{
+  "seasons": [
+    {
+      "name": "Copa del Rey 25/26",
+      "year": "25/26",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 1
+      },
+      "id": 82988
+    },
+    {
+      "name": "Copa del Rey 24/25",
+      "year": "24/25",
+      "editor": false,
+      "seasonCoverageInfo": {
+        "editorCoverageLevel": 1
+      },
+      "id": 66885
+    },
+    {
+      "name": "Copa del Rey 23/24",
+      "year": "23/24",
+      "editor": false,
+      "id": 55373
+    },
+    {
+      "name": "Copa del Rey 22/23",
+      "year": "22/23",
+      "editor": false,
+      "id": 46493
+    },
+    {
+      "name": "Copa del Rey 21/22",
+      "year": "21/22",
+      "editor": false,
+      "id": 39457
+    },
+    {
+      "name": "Copa del Rey 20/21",
+      "year": "20/21",
+      "editor": false,
+      "id": 34681
+    },
+    {
+      "name": "Copa del Rey 19/20",
+      "year": "19/20",
+      "editor": false,
+      "id": 26137
+    },
+    {
+      "name": "Copa del Rey 18/19",
+      "year": "18/19",
+      "editor": false,
+      "id": 18173
+    },
+    {
+      "name": "Copa del Rey 17/18",
+      "year": "17/18",
+      "editor": false,
+      "id": 14023
+    },
+    {
+      "name": "Copa del Rey 16/17",
+      "year": "16/17",
+      "editor": false,
+      "id": 11974
+    },
+    {
+      "name": "Copa del Rey 15/16",
+      "year": "15/16",
+      "editor": false,
+      "id": 10551
+    },
+    {
+      "name": "Copa del Rey 14/15",
+      "year": "14/15",
+      "editor": false,
+      "id": 8670
+    },
+    {
+      "name": "Copa del Rey 13/14",
+      "year": "13/14",
+      "editor": false,
+      "id": 6999
+    },
+    {
+      "name": "Copa del Rey 12/13",
+      "year": "12/13",
+      "editor": false,
+      "id": 5185
+    },
+    {
+      "name": "Copa del Rey 11/12",
+      "year": "11/12",
+      "editor": false,
+      "id": 3837
+    },
+    {
+      "name": "Copa del Rey 10/11",
+      "year": "10/11",
+      "editor": false,
+      "id": 2946
+    },
+    {
+      "name": "Copa del Rey 09/10",
+      "year": "09/10",
+      "editor": false,
+      "id": 2416
+    },
+    {
+      "name": "Copa del Rey 08/09",
+      "year": "08/09",
+      "editor": false,
+      "id": 1808
+    }
+  ]
+}

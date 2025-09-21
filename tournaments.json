@@ -1,0 +1,262 @@
+{
+  "groups": [
+    {
+      "uniqueTournaments": [
+        {
+          "name": "LaLiga",
+          "slug": "laliga",
+          "primaryColorHex": "#2f4a89",
+          "secondaryColorHex": "#f4a32e",
+          "category": {
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 32,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا",
+                "hi": "स्पेन",
+                "bn": "স্পেন"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 875420,
+          "id": 8,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الإسباني",
+              "hi": "ला लिगा",
+              "bn": "লা লীগা"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        {
+          "name": "Copa del Rey",
+          "slug": "copa-del-rey",
+          "primaryColorHex": "#221C35",
+          "secondaryColorHex": "#fe0235",
+          "category": {
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 32,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا",
+                "hi": "स्पेन",
+                "bn": "স্পেন"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 183795,
+          "id": 329,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس ملك إسبانيا",
+              "hi": "कोपा डेल रे",
+              "bn": "কোপা দেল রে"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        {
+          "name": "Supercopa de España",
+          "slug": "supercopa-de-espana",
+          "primaryColorHex": "#daac6a",
+          "secondaryColorHex": "#4a919d",
+          "category": {
+            "name": "Spain",
+            "slug": "spain",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 32,
+            "flag": "spain",
+            "alpha2": "ES",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "إسبانيا",
+                "hi": "स्पेन",
+                "bn": "স্পেন"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 90955,
+          "id": 213,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس السوبر الإسباني",
+              "hi": "सुपरकोपा डे एस्पाना",
+              "bn": "স্প্যানিশ সুপার কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        
+        {
+          "name": "UEFA Champions League",
+          "slug": "uefa-champions-league",
+          "primaryColorHex": "#062b5c",
+          "secondaryColorHex": "#086aab",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 1207422,
+          "id": 7,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري أبطال أوروبا",
+              "hi": "यूईएफए चैंपियंस लीग",
+              "bn": "উয়েফা চ্যাম্পিয়ন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        {
+          "name": "UEFA Europa League",
+          "slug": "uefa-europa-league",
+          "secondaryColorHex": "#f37d25",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 487810,
+          "id": 679,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "الدوري الأوروبي",
+              "hi": "यूईएफए यूरोपा लीग",
+              "bn": "উয়েফা ইউরোপা লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        {
+          "name": "UEFA Conference League",
+          "slug": "uefa-europa-conference-league",
+          "secondaryColorHex": "#04be15",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 262224,
+          "id": 17015,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "دوري مؤتمرات الإتحاد الأوروبي",
+              "hi": "यूईएफए कॉन्फ्रेंस लीग",
+              "bn": "উয়েফা কনফারেন্স লীগ"
+            },
+            "shortNameTranslation": {}
+          }
+        },
+        {
+          "name": "UEFA Super Cup",
+          "slug": "uefa-super-cup",
+          "primaryColorHex": "#626366",
+          "secondaryColorHex": "#009ade",
+          "category": {
+            "name": "Europe",
+            "slug": "europe",
+            "sport": {
+              "name": "Football",
+              "slug": "football",
+              "id": 1
+            },
+            "id": 1465,
+            "flag": "europe",
+            "fieldTranslations": {
+              "nameTranslation": {
+                "ar": "أوروبا",
+                "hi": "यूरोप",
+                "bn": "ইউরোপ"
+              },
+              "shortNameTranslation": {}
+            }
+          },
+          "userCount": 110258,
+          "id": 465,
+          "displayInverseHomeAwayTeams": false,
+          "fieldTranslations": {
+            "nameTranslation": {
+              "ar": "كأس السوبر الأوروبي",
+              "hi": "यूईएफए सुपर कप",
+              "bn": "উয়েফা সুপার কাপ"
+            },
+            "shortNameTranslation": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "seasons": [
+    {
+      "name": "UEFA Super Cup 2025",
+      "year": "25/26",
+      "editor": false,
+      "id": 76138
+    },
+    {
+      "name": "UEFA Super Cup 2024",
+      "year": "24/25",
+      "editor": false,
+      "id": 60623
+    },
+    {
+      "name": "UEFA Super Cup 2023",
+      "year": "23/24",
+      "editor": false,
+      "id": 52094
+    },
+    {
+      "name": "UEFA Super Cup 2022",
+      "year": "22/23",
+      "editor": false,
+      "id": 41910
+    },
+    {
+      "name": "UEFA Super Cup 2021",
+      "year": "21/22",
+      "editor": false,
+      "id": 36877
+    },
+    {
+      "name": "UEFA Super Cup 2020",
+      "year": "20/21",
+      "editor": false,
+      "id": 29463
+    },
+    {
+      "name": "UEFA Super Cup 2019",
+      "year": "19/20",
+      "editor": false,
+      "id": 23614
+    },
+    {
+      "name": "UEFA Super Cup 2018",
+      "year": "18/19",
+      "editor": false,
+      "id": 17168
+    },
+    {
+      "name": "UEFA Super Cup 2017",
+      "year": "17/18",
+      "editor": false,
+      "id": 13327
+    },
+    {
+      "name": "UEFA Super Cup 2016",
+      "year": "16/17",
+      "editor": false,
+      "id": 11645
+    },
+    {
+      "name": "UEFA Super Cup 2015",
+      "year": "15/16",
+      "editor": false,
+      "id": 10472
+    },
+    {
+      "name": "UEFA Super Cup 2014",
+      "year": "14/15",
+      "editor": false,
+      "id": 8126
+    },
+    {
+      "name": "UEFA Super Cup 2013",
+      "year": "13/14",
+      "editor": false,
+      "id": 6301
+    },
+    {
+      "name": "UEFA Super Cup 2012",
+      "year": "12/13",
+      "editor": false,
+      "id": 4816
+    },
+    {
+      "name": "UEFA Super Cup 2011",
+      "year": "11/12",
+      "editor": false,
+      "id": 3362
+    },
+    {
+      "name": "UEFA Super Cup 2010",
+      "year": "10/11",
+      "editor": false,
+      "id": 2830
+    },
+    {
+      "name": "UEFA Super Cup 2009",
+      "year": "09/10",
+      "editor": false,
+      "id": 2299
+    },
+    {
+      "name": "UEFA Super Cup 2008",
+      "year": "08/09",
+      "editor": false,
+      "id": 1559
+    }
+  ]
+}
