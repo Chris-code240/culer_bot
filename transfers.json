@@ -1,0 +1,1824 @@
+{
+  "transfersIn": [
+    {
+      "player": {
+        "name": "Marcus Rashford",
+        "slug": "marcus-rashford",
+        "shortName": "M. Rashford",
+        "position": "M",
+        "jerseyNumber": "14",
+        "userCount": 253799,
+        "sofascoreId": "Rashford",
+        "id": 814590,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ماركوس راشفورد",
+            "hi": "मार्कस रैशफोर्ड",
+            "bn": "মার্কাস রাশফোর্ড"
+          },
+          "shortNameTranslation": {
+            "ar": "م. راشفورد",
+            "hi": "एम. रैशफोर्ड",
+            "bn": "এম. রাশফোর্ড"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Manchester United",
+        "slug": "manchester-united",
+        "shortName": "Man Utd",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 2940017,
+        "nameCode": "MUN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 35,
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#373737",
+          "text": "#373737"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مانتشستر يونايتد",
+            "ru": "Манчестер Юнайтед",
+            "hi": "मेनचेस्टर यूनाइटेड ऍफ़सी"
+          },
+          "shortNameTranslation": {
+            "ar": "مان يونايتد",
+            "hi": "मैन यूनाइटेड",
+            "bn": "ম্যান ইউনাইটেড"
+          }
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Manchester United",
+      "toTeamName": "Barcelona",
+      "type": 1,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2409586,
+      "transferDateTimestamp": 1753228800,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Joan García",
+        "slug": "joan-garcia",
+        "shortName": "J. García",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 42570,
+        "id": 930267,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جوان جارسيا",
+            "hi": "जोन गार्सिया",
+            "bn": "জোয়ান গার্সিয়া"
+          },
+          "shortNameTranslation": {
+            "ar": "ج. جارسيا",
+            "hi": "जे. गार्सिया",
+            "bn": "জে. গার্সিয়া"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Espanyol",
+        "slug": "espanyol",
+        "shortName": "Espanyol",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 156499,
+        "nameCode": "ESP",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2814,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#1369d2",
+          "text": "#1369d2"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "اسبانيول",
+            "ru": "Эспаньол",
+            "hi": "एस्पेनयोल",
+            "bn": "এসপানিওল"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Espanyol",
+      "toTeamName": "Barcelona",
+      "type": 3,
+      "transferFee": 25000000,
+      "transferFeeDescription": "25M €",
+      "id": 2354639,
+      "transferDateTimestamp": 1751328000,
+      "transferFeeRaw": {
+        "value": 25000000,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Álex Valle",
+        "firstName": "",
+        "lastName": "",
+        "slug": "valle-alex",
+        "shortName": "Á. Valle",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 6927,
+        "sofascoreId": "alexxv_5",
+        "id": 1142238,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالي، أليكس",
+            "hi": "वैले, एलेक्स",
+            "bn": "ভ্যালে, অ্যালেক্স"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالي",
+            "hi": "ए. वैले",
+            "bn": "আ. ভ্যালে"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Celtic",
+        "slug": "celtic",
+        "shortName": "Celtic",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 447677,
+        "nameCode": "CEL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2352,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#009933",
+          "text": "#009933"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك",
+            "ru": "Селтик Глазго",
+            "hi": "सेल्टिक",
+            "bn": "সেল্টিক"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Celtic",
+      "toTeamName": "Barcelona",
+      "type": 2,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2139933,
+      "transferDateTimestamp": 1751241600,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Oriol Romeu",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oriol-romeu",
+        "shortName": "O. Romeu",
+        "position": "M",
+        "userCount": 11452,
+        "sofascoreId": "oriolromeu",
+        "id": 69416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوريول روميو",
+            "hi": "ओरिओल रोमेउ",
+            "bn": "ওরিওল রোমিও"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. روميو",
+            "hi": "ओ. रोमेउ",
+            "bn": "ও. রোমিও"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Girona FC",
+        "slug": "girona-fc",
+        "shortName": "Girona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 466788,
+        "nameCode": "GIR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 24264,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "جيرونا إف سي",
+            "ru": "Жирона",
+            "hi": "जिरोना"
+          },
+          "shortNameTranslation": {
+            "ar": "جيرونا",
+            "hi": "गिरोना",
+            "bn": "জিরোনা"
+          }
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Girona FC",
+      "toTeamName": "Barcelona",
+      "type": 2,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2109823,
+      "transferDateTimestamp": 1751241600,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Clément Lenglet",
+        "slug": "clement-lenglet",
+        "shortName": "C. Lenglet",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 8558,
+        "sofascoreId": "clement_lenglet",
+        "id": 580550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كليمو لينغليه",
+            "hi": "क्लेमेंट लेंग्लेट",
+            "bn": "ক্লেমেন্ট লেংলেট"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لينغليه",
+            "hi": "सी. लेंग्लेट",
+            "bn": "সি. লেংলেট"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Atlético Madrid",
+        "slug": "atletico-madrid",
+        "shortName": "Atl. Madrid",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1816062,
+        "nameCode": "AMA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2836,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مدريد",
+            "ru": "Атлетико Мадрид",
+            "hi": "एटलेटिको मैड्रिड"
+          },
+          "shortNameTranslation": {
+            "ar": "أتل. مدريد",
+            "bn": "এটিএল. মাদ্রিদ"
+          }
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Atlético Madrid",
+      "toTeamName": "Barcelona",
+      "type": 2,
+      "transferFeeDescription": "-",
+      "id": 2346347,
+      "transferDateTimestamp": 1749340800
+    },
+    {
+      "player": {
+        "name": "Vitor Roque",
+        "firstName": "Vitor Roque",
+        "slug": "vitor-roque",
+        "shortName": "V. Roque",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 80754,
+        "sofascoreId": "VRoque",
+        "id": 1150391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتور روكي",
+            "hi": "विटोर रोक",
+            "bn": "ভিটর রোক"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. روكي",
+            "hi": "वी. रोक",
+            "bn": "ভি. রোক"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Real Betis",
+        "slug": "real-betis",
+        "shortName": "Real Betis",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 576615,
+        "nameCode": "RBB",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2816,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#006633",
+          "text": "#006633"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "ريال بيتيس",
+            "ru": "Реал Бетис"
+          },
+          "shortNameTranslation": {
+            "ar": "ريال بيتيس",
+            "hi": "बेटिस",
+            "bn": "বেটিস"
+          }
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Real Betis",
+      "toTeamName": "Barcelona",
+      "type": 2,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2283925,
+      "transferDateTimestamp": 1740614400,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Álex Valle",
+        "firstName": "",
+        "lastName": "",
+        "slug": "valle-alex",
+        "shortName": "Á. Valle",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 6927,
+        "sofascoreId": "alexxv_5",
+        "id": 1142238,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالي، أليكس",
+            "hi": "वैले, एलेक्स",
+            "bn": "ভ্যালে, অ্যালেক্স"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالي",
+            "hi": "ए. वैले",
+            "bn": "আ. ভ্যালে"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Celtic",
+        "slug": "celtic",
+        "shortName": "Celtic",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 447677,
+        "nameCode": "CEL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2352,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#009933",
+          "text": "#009933"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سلتيك",
+            "ru": "Селтик Глазго",
+            "hi": "सेल्टिक",
+            "bn": "সেল্টিক"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Celtic",
+      "toTeamName": "Barcelona",
+      "type": 2,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2261012,
+      "transferDateTimestamp": 1738022400,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Wojciech Szczęsny",
+        "slug": "wojciech-szczesny",
+        "shortName": "W. Szczęsny",
+        "position": "G",
+        "jerseyNumber": "25",
+        "userCount": 90113,
+        "sofascoreId": "wojciech.szczesny1",
+        "id": 50490,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فويتشيك تشيزني",
+            "hi": "वोज्शिएक स्ज़ेसनी",
+            "bn": "ওজসিচ স্‌জ্‌সনি"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. شتشيسني",
+            "hi": "डब्लू. स्ज़ेसनी",
+            "bn": "ডব্লিউ. স্‌জ্‌সনি"
+          }
+        }
+      },
+      "transferTo": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Career break",
+      "toTeamName": "Barcelona",
+      "type": 3,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2180022,
+      "transferDateTimestamp": 1727827200,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    }
+  ],
+  "transfersOut": [
+    {
+      "player": {
+        "name": "Hector Fort",
+        "firstName": "Héctor Fort",
+        "slug": "fort-hector",
+        "shortName": "H. Fort",
+        "position": "D",
+        "jerseyNumber": "39",
+        "userCount": 48944,
+        "sofascoreId": "hctorfort",
+        "id": 1402908,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فورت، هيكتور",
+            "hi": "फोर्ट, हेक्टर",
+            "bn": "ফোর্ট, হেক্টর"
+          },
+          "shortNameTranslation": {
+            "ar": "ه. فورت",
+            "hi": "एच. फोर्ट",
+            "bn": "এইচ. ফোর্ট"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Elche",
+        "slug": "elche",
+        "shortName": "Elche",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 58819,
+        "nameCode": "ELC",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2846,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#336600",
+          "text": "#336600"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلتشي",
+            "ru": "Эльче",
+            "hi": "एल्चे",
+            "bn": "এলচে"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Elche",
+      "type": 1,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2473285,
+      "transferDateTimestamp": 1756684800,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Oriol Romeu",
+        "firstName": "",
+        "lastName": "",
+        "slug": "oriol-romeu",
+        "shortName": "O. Romeu",
+        "position": "M",
+        "userCount": 11452,
+        "sofascoreId": "oriolromeu",
+        "id": 69416,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أوريول روميو",
+            "hi": "ओरिओल रोमेउ",
+            "bn": "ওরিওল রোমিও"
+          },
+          "shortNameTranslation": {
+            "ar": "ع. روميو",
+            "hi": "ओ. रोमेउ",
+            "bn": "ও. রোমিও"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "No team",
+        "slug": "no-team",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 10,
+        "nameCode": "NTE",
+        "disabled": true,
+        "national": false,
+        "type": 0,
+        "id": 241802,
+        "teamColors": {
+          "primary": "#d0d0d0",
+          "secondary": "#000000",
+          "text": "#000000"
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "No team",
+      "type": 3,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2479008,
+      "transferDateTimestamp": 1756598400,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Iñaki Peña",
+        "slug": "inaki-pena",
+        "shortName": "I. Peña",
+        "position": "G",
+        "jerseyNumber": "13",
+        "userCount": 46747,
+        "sofascoreId": "inakipenya",
+        "id": 794949,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إيناكي بينا",
+            "hi": "इनाकी पेना",
+            "bn": "ইনাকি পেনা"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. بينا",
+            "hi": "आई. पेना",
+            "bn": "আই. পেনা"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Elche",
+        "slug": "elche",
+        "shortName": "Elche",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 58819,
+        "nameCode": "ELC",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2846,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#336600",
+          "text": "#336600"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إلتشي",
+            "ru": "Эльче",
+            "hi": "एल्चे",
+            "bn": "এলচে"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Elche",
+      "type": 1,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2466710,
+      "transferDateTimestamp": 1756252800,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Iñigo Martínez",
+        "slug": "inigo-martinez",
+        "shortName": "I. Martínez",
+        "position": "D",
+        "jerseyNumber": "26",
+        "userCount": 69095,
+        "sofascoreId": "IñigoMartínez",
+        "id": 173883,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "إنيغو مارتينيز",
+            "hi": "इनिगो मार्टिनेज",
+            "bn": "ইনিগো মার্টিনেজ"
+          },
+          "shortNameTranslation": {
+            "ar": "إ. مارتينيز",
+            "hi": "आई. मार्टिनेज",
+            "bn": "আই. মার্টিনেজ"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Al-Nassr",
+        "slug": "al-nassr",
+        "shortName": "Al-Nassr",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1690085,
+        "nameCode": "ALN",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 23400,
+        "teamColors": {
+          "primary": "#ffff00",
+          "secondary": "#ffff00",
+          "text": "#ffff00"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "النصر",
+            "ru": "Аль-Наср",
+            "hi": "अल-नासर",
+            "bn": "আল-নাসর"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Al-Nassr",
+      "type": 3,
+      "transferFee": 0,
+      "transferFeeDescription": "Unknown",
+      "id": 2437885,
+      "transferDateTimestamp": 1754784000,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Pau Víctor",
+        "slug": "pau-victor",
+        "shortName": "P. Víctor",
+        "position": "F",
+        "jerseyNumber": "18",
+        "userCount": 45737,
+        "sofascoreId": "PauVíctor",
+        "id": 1031567,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "باو فيكتور",
+            "hi": "पॉ विक्टर",
+            "bn": "পাউ ভিক্টর"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. فيكتور",
+            "hi": "पी. विक्टर",
+            "bn": "জু পি. ভিক্টর"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Sporting Braga",
+        "slug": "sporting-braga",
+        "shortName": "Braga",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 294401,
+        "nameCode": "SBR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2999,
+        "teamColors": {
+          "primary": "#ff0000",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "سبورتينغ براغا",
+            "ru": "Брага"
+          },
+          "shortNameTranslation": {
+            "ar": "براغا",
+            "hi": "ब्रागा",
+            "bn": "ব্রাগা"
+          }
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Sporting Braga",
+      "type": 3,
+      "transferFee": 12000000,
+      "transferFeeDescription": "12M €",
+      "id": 2412863,
+      "transferDateTimestamp": 1753401600,
+      "transferFeeRaw": {
+        "value": 12000000,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Pablo Torre",
+        "slug": "pablo-torre",
+        "shortName": "P. Torre",
+        "position": "M",
+        "jerseyNumber": "20",
+        "userCount": 45570,
+        "sofascoreId": "PabloTorre",
+        "id": 1082981,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بابلو توري",
+            "hi": "पाब्लो टोरे",
+            "bn": "পাবলো টরে"
+          },
+          "shortNameTranslation": {
+            "ar": "ب. توري",
+            "hi": "पी. टोरे",
+            "bn": "পি. টরে"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Mallorca",
+        "slug": "mallorca",
+        "shortName": "Mallorca",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 218580,
+        "nameCode": "MLL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2826,
+        "teamColors": {
+          "primary": "#cc0000",
+          "secondary": "#000000",
+          "text": "#000000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "مايوركا",
+            "ru": "Мальорка",
+            "hi": "मल्लोर्का",
+            "bn": "ম্যালোর্কা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Mallorca",
+      "type": 3,
+      "transferFee": 5000000,
+      "transferFeeDescription": "5M €",
+      "id": 2392835,
+      "transferDateTimestamp": 1752451200,
+      "transferFeeRaw": {
+        "value": 5000000,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Álex Valle",
+        "firstName": "",
+        "lastName": "",
+        "slug": "valle-alex",
+        "shortName": "Á. Valle",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 6927,
+        "sofascoreId": "alexxv_5",
+        "id": 1142238,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالي، أليكس",
+            "hi": "वैले, एलेक्स",
+            "bn": "ভ্যালে, অ্যালেক্স"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالي",
+            "hi": "ए. वैले",
+            "bn": "আ. ভ্যালে"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Como",
+        "slug": "como",
+        "shortName": "Como",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 131839,
+        "nameCode": "COM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2704,
+        "teamColors": {
+          "primary": "#09436b",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كومو 1907"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Como",
+      "type": 3,
+      "transferFee": 0,
+      "transferFeeDescription": "Unknown",
+      "id": 2342598,
+      "transferDateTimestamp": 1751328000,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Ansu Fati",
+        "slug": "ansu-fati",
+        "shortName": "A. Fati",
+        "position": "F",
+        "jerseyNumber": "31",
+        "userCount": 175773,
+        "sofascoreId": "AnsuFati",
+        "id": 962883,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أنسو فاتي",
+            "hi": "अंसू फाति",
+            "bn": "আনসু ফাতি"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فاتي",
+            "hi": "ए. फाति",
+            "bn": "এ. ফাতি"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "AS Monaco",
+        "slug": "as-monaco",
+        "shortName": "AS Monaco",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 546463,
+        "nameCode": "ASM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1653,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ff0000",
+          "text": "#ff0000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "نادي موناكو",
+            "ru": "Монако",
+            "hi": "एएस मोनाको",
+            "bn": "এএস মোনাকো"
+          },
+          "shortNameTranslation": {
+            "ar": "موناكو"
+          }
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "AS Monaco",
+      "type": 1,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2369983,
+      "transferDateTimestamp": 1751328000,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Clément Lenglet",
+        "slug": "clement-lenglet",
+        "shortName": "C. Lenglet",
+        "position": "D",
+        "jerseyNumber": "15",
+        "userCount": 8558,
+        "sofascoreId": "clement_lenglet",
+        "id": 580550,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كليمو لينغليه",
+            "hi": "क्लेमेंट लेंग्लेट",
+            "bn": "ক্লেমেন্ট লেংলেট"
+          },
+          "shortNameTranslation": {
+            "ar": "ك. لينغليه",
+            "hi": "सी. लेंग्लेट",
+            "bn": "সি. লেংলেট"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Atlético Madrid",
+        "slug": "atletico-madrid",
+        "shortName": "Atl. Madrid",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 1816062,
+        "nameCode": "AMA",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2836,
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#c40000",
+          "text": "#c40000"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "أتلتيكو مدريد",
+            "ru": "Атлетико Мадрид",
+            "hi": "एटलेटिको मैड्रिड"
+          },
+          "shortNameTranslation": {
+            "ar": "أتل. مدريد",
+            "bn": "এটিএল. মাদ্রিদ"
+          }
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Atlético Madrid",
+      "type": 3,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2346348,
+      "transferDateTimestamp": 1749427200,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Vitor Roque",
+        "firstName": "Vitor Roque",
+        "slug": "vitor-roque",
+        "shortName": "V. Roque",
+        "position": "F",
+        "jerseyNumber": "9",
+        "userCount": 80754,
+        "sofascoreId": "VRoque",
+        "id": 1150391,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فيتور روكي",
+            "hi": "विटोर रोक",
+            "bn": "ভিটর রোক"
+          },
+          "shortNameTranslation": {
+            "ar": "ف. روكي",
+            "hi": "वी. रोक",
+            "bn": "ভি. রোক"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Palmeiras",
+        "slug": "palmeiras",
+        "shortName": "Palmeiras",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 589955,
+        "nameCode": "PAL",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1963,
+        "teamColors": {
+          "primary": "#339966",
+          "secondary": "#336633",
+          "text": "#336633"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "بالمييراس",
+            "ru": "Палмейрас"
+          },
+          "shortNameTranslation": {
+            "ar": "بالمييراس"
+          }
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Palmeiras",
+      "type": 3,
+      "transferFee": 25500000,
+      "transferFeeDescription": "25.5M €",
+      "id": 2283924,
+      "transferDateTimestamp": 1740700800,
+      "transferFeeRaw": {
+        "value": 25500000,
+        "currency": "EUR"
+      }
+    },
+    {
+      "player": {
+        "name": "Álex Valle",
+        "firstName": "",
+        "lastName": "",
+        "slug": "valle-alex",
+        "shortName": "Á. Valle",
+        "position": "D",
+        "jerseyNumber": "3",
+        "userCount": 6927,
+        "sofascoreId": "alexxv_5",
+        "id": 1142238,
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "فالي، أليكس",
+            "hi": "वैले, एलेक्स",
+            "bn": "ভ্যালে, অ্যালেক্স"
+          },
+          "shortNameTranslation": {
+            "ar": "أ. فالي",
+            "hi": "ए. वैले",
+            "bn": "আ. ভ্যালে"
+          }
+        }
+      },
+      "transferFrom": {
+        "name": "Barcelona",
+        "slug": "barcelona",
+        "shortName": "Barcelona",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 5285352,
+        "nameCode": "BAR",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2817,
+        "teamColors": {
+          "primary": "#154284",
+          "secondary": "#9d1009",
+          "text": "#9d1009"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "برشلونة",
+            "ru": "Барселона",
+            "hi": "बार्सिलोना",
+            "bn": "বার্সেলোনা"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "transferTo": {
+        "name": "Como",
+        "slug": "como",
+        "shortName": "Como",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "slug": "football",
+          "id": 1
+        },
+        "userCount": 131839,
+        "nameCode": "COM",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 2704,
+        "teamColors": {
+          "primary": "#09436b",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "fieldTranslations": {
+          "nameTranslation": {
+            "ar": "كومو 1907"
+          },
+          "shortNameTranslation": {}
+        }
+      },
+      "fromTeamName": "Barcelona",
+      "toTeamName": "Como",
+      "type": 1,
+      "transferFee": 0,
+      "transferFeeDescription": "-",
+      "id": 2261011,
+      "transferDateTimestamp": 1738281600,
+      "transferFeeRaw": {
+        "value": 0,
+        "currency": "EUR"
+      }
+    }
+  ]
+}

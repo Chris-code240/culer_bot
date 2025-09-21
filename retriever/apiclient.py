@@ -1,156 +1,102 @@
-
 import os, dotenv, requests, json
+from urllib.parse import urljoin
 
 dotenv.load_dotenv()
 
-import http.client
-
-
-MATCHES_ENPOINTS_WITH_PARAMS = {
-    "detail":"matchtId",
-    "get-lineups":"matchtId",
-    "get-comments":"matchtId",
-    "get-incidents":"matchtId",
-    "get-managers":"matchtId",
-    "get-graph":"matchtId",
-    "get-statistics":"matchtId",
-    "get-team-streaks":"matchtId",
-    "get-best-players":"matchtId",
-    "get-player-statistics":["matchtId","playerId"],
-    "get-player-heatmap":["matchtId","playerId"],
-    "get-h2h":"matchtId"
+MATCHES_ENDPOINTS_WITH_PARAMS: dict[str, list[str] | str] = {
+    "detail": "matchId",
+    "get-lineups": "matchId",
+    "get-comments": "matchId",
+    "get-incidents": "matchId",
+    "get-managers": "matchId",
+    "get-graph": "matchId",
+    "get-statistics": "matchId",
+    "get-team-streaks": "matchId",
+    "get-best-players": "matchId",
+    "get-player-statistics": ["matchId", "playerId"],
+    "get-player-heatmap": ["matchId", "playerId"],
+    "get-h2h": "matchId"
 }
 
-PLAYERS_ENDPOINTS_WITH_PARAMS = {
-    "detail":"playerId",
-    "get-characteristics":"playerId",
-    "get-ratings":"playerId",
-    "get-transfer-history":"playerId",
-    "get-statistics":"playerId",
-    "get-national-team-statistics":"playerId",
-    "get-statistics-season":"playerId",
-    "get-all-statistics":"playerId",
-    "get-next-matches":"playerId",
-    "get-last-matches":"playerId",
-    "get-last-year-summary":"playerId"
+PLAYERS_ENDPOINTS_WITH_PARAMS: dict[str, list[str] | str] = {
+    "detail": "playerId",
+    "get-characteristics": "playerId",
+    "get-ratings": "playerId",
+    "get-transfer-history": "playerId",
+    "get-statistics": "playerId",
+    "get-national-team-statistics": "playerId",
+    "get-statistics-season": "playerId",
+    "get-all-statistics": "playerId",
+    "get-next-matches": "playerId",
+    "get-last-matches": "playerId",
+    "get-last-year-summary": "playerId"
 }
 
-TEAMS_ENDPOINTS_WITH_PARAMS = {
-    "detail":"teamId",
-    "get-squad":"teamId",
-    "get-transfers":"teamId",
-    "get-performance":"teamId",
-    "get-rankings":"teamId",
-    "get-tournaments":"teamId",
-    "get-near-events":"teamId",
-    "get-ranks":"teamId",
-    "get-statistics":"teamId",
-    "get-statistics-seasons":"teamId",
-    "get-last-matches":"teamId",
-    "get-next-matches":"teamId",
-    "get-player-statistics" : [ "teamId", "seasonId" ],
+TEAMS_ENDPOINTS_WITH_PARAMS: dict[str, list[str] | str] = {
+    "detail": "teamId",
+    "get-squad": "teamId",
+    "get-transfers": "teamId",
+    "get-performance": "teamId",
+    "get-rankings": "teamId",
+    "get-tournaments": "teamId",
+    "get-near-events": "teamId",
+    "get-ranks": "teamId",
+    "get-statistics": "teamId",
+    "get-statistics-seasons": "teamId",
+    "get-last-matches": "teamId",
+    "get-next-matches": "teamId",
+    "get-player-statistics": ["teamId", "seasonId"],
 }
+
 
 class APIClient:
-    def __init__(self, api_key:str = os.environ.get('x-rapidapi-key', None), base_url:str=os.environ.get('x-rapidapi-host', None)):
+    def __init__(
+        self,
+        api_key: str | None = os.environ.get("x-rapidapi-key"),
+        base_url: str | None = os.environ.get("x-rapidapi-host"),
+    ):
         if not api_key:
             raise ValueError("API_KEY cannot be None")
         if not base_url:
             raise ValueError("BASE_URL cannot be None")
+
         self.api_key = api_key
         self.base_url = base_url
         self.headers = {
-                'x-rapidapi-host': self.base_url,
-                'x-rapidapi-key': self.api_key
+            "x-rapidapi-host": self.base_url,
+            "x-rapidapi-key": self.api_key,
         }
-        self.httpConnection = http.client.HTTPConnection(self.base_url)
-        # self.barca_id = 529
+    
+        # Example defaults
         self.barca_id = 2817
         self.barca_code = "BAR"
+        self.la_liga_id = 8
+        self.champions_league_id = 7
+        self.copa_del_rey = 329
+        self.supa_copa_de_espana = 213
+        self.eufa_eroupa_league = 679
+        self.eufa_europa_conference_league = 17015
+        self.eufa_super_cup = 465
 
-    def get(self, endpoint_base:str, endpoint_end:str='', params:dict={}):
+        self.tournaments_with_ids = {
+            "laliga":self.la_liga_id, 
+            "champions_league":self.champions_league_id,
+            "copa-del-rey":self.copa_del_rey,
+            "supa-copa-de-espana":self.supa_copa_de_espana,
+            "uefa-europa-league": self.eufa_eroupa_league,
+            "eufa-europa-conference-league":self.eufa_europa_conference_league,
+            "eufa-super-cup":self.eufa_super_cup
+            }
+
+    def get(self, endpoint_base: str, endpoint_end: str = "", params: dict | None = None):
+        params = params or {}
         try:
-            url ="https://"+ f"{self.base_url}/{endpoint_base.lower()}/{endpoint_end}".replace('//','/')
-
+            url = f"https://{self.base_url}/{endpoint_base.lower().strip('/')}/{endpoint_end.strip('/')}"
             response = requests.get(url=url, headers=self.headers, params=params)
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
+            response.raise_for_status()
+            return response.json()
         except Exception as e:
-            return { "success":False, "message":str(e)}
-
-    def get_squad(self):
-        return self.get("/teams", "/get-squad", {"teamId":self.barca_id})
+            return {"success": False, "message": str(e)}
     
-    
-    def get_player_details(self, playerID:int):
-        try:
-            url = f"http://{self.base_url}/players/detail"
-            response = requests.get(url=url, headers=self.headers, params={"playerId":str(playerID)})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return  { "success":False, "message":str(e)}
-    def get_player_statistics(self, playerID:int):
-        try:
-            url = f"https://{self.base_url}/players/get-all-statistics"
-            params = {"playerId":str(playerID)}
-            response = requests.get(url=url, headers=self.headers, params=params)
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
-    def get_player_by_name(self, player_name:str):
-        try:
-            response = requests.get(url = "https://"+self.base_url + "/search?", headers=self.headers, params={"q":player_name,"type":"all","page":0})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
-
-    def get_player_characteristics(self, playerID:int):
-        try:
-            response = requests.get(url = "https://"+self.base_url + "/players/get-characteristics", headers=self.headers, params={"playerId":str(playerID)})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
-    def get_transfer_history(self, playerID:int):
-        try:
-            response = requests.get(url = "https://"+self.base_url + "/players/get-transfer-history", headers=self.headers, params={"playerId":str(playerID)})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
-    def get_player_characteristics(self, playerID:int):
-        try:
-            response = requests.get(url = "https://"+self.base_url + "/players/get-national-team-statistics", headers=self.headers, params={"playerId":str(playerID)})
-            if response.ok:
-                return response.json()
-            raise Exception(response.reason)
-        except Exception as e:
-            return { "success":False, "message":str(e)}
-    def get_all_players(self):
-        pass
-    def get_players_in_a_season(self, season:str = "2024/25"):
-        pass
-
-    def get_team_statitics(self):
-        pass
-
-    def get_player_statitics(self, player_id:int):
-        pass
-
-
-client = APIClient()
-
-print(client.get_squad())
-
-"""
- {'results': [{'entity': {'id': 12994, 'name': 'Lionel Messi', 'slug': 'lionel-messi', 'retired': False, 'userCount': 1559095, 'team': {'id': 337602, 'name': 'Inter Miami CF', 'nameCode': 'IMC', 'slug': 'inter-miami-cf', 'national': False, 'sport': {'id': 1, 'slug': 'football', 'name': 'Football'}, 'userCount': 1510605, 'teamColors': {'primary': '#212322', 'secondary': '#f6b5cc', 'text': '#f6b5cc'}, 'gender': 'M', 'fieldTranslations': {'nameTranslation': {'ar': 'إنتر ميامي', 'ru': 'Интер Майами', 'hi': 'इंटर मिआमि सीऍफ़'}, 'shortNameTranslation': {}}}, 'deceased': False, 'country': {'alpha2': 'AR', 'name': 'Argentina', 'slug': 'argentina'}, 'shortName': 'L. Messi', 'position': 'F', 'jerseyNumber': '10', 'sofascoreId': 'LM10', 'fieldTranslations': {'nameTranslation': {'ar': 'ل. ميسي', 'hi': 'एल. मेसी', 'bn': 'এল. মেসি'}, 'shortNameTranslation': {}}}, 'score': 1127260.6, 'type': 'player'}
-"""
+    def get_seasons(self):
+        return None
