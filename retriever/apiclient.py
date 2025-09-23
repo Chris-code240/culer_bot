@@ -48,6 +48,12 @@ TEAMS_ENDPOINTS_WITH_PARAMS: dict[str, list[str] | str] = {
     "get-player-statistics": ["teamId", "seasonId"],
 }
 
+"""
+ GET ALL MATCHES starting from 1997 -> set pageIndex to 50 then reduce to 0
+ Then 
+    get all squad ( with their statitics ) from 1997 to date
+    get all managers from 1197 to date
+"""
 
 class APIClient:
     def __init__(
